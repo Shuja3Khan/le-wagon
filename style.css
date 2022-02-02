@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+#Description {
+  font-size: 15px;
+}
+
+h1 {
+  color: darksalmon;
+  font-size: 25px;
+  line-height: 1;
+}
+
+h2 {
+  color: rgb(174, 116, 41);
+  font-size: 10px;
+  line-height: 1;
+}
+
+h3{
+  color: rgb(174, 116, 41);
+  font-size: 10px;
+  line-height: 1;
+}
+
+body {
+  background-color: rgb(233, 217, 196);
+  font-family: 'Open Sans', sans-serif;
+  font-size: medium;
+  font-weight: 200;
+  line-height: medium;
+}
+
+.fa-facebook{
+  color: blue;
+}
+
+.fa-linkedin{
+  color: rgb(78, 78, 214);
+}
+
+.fa-twitter{
+  color: aqua;
+}
+
+.fab:hover{
+  font-size: 20px;
+}
+
+#dp {
+  width: 500px;
+  border-radius: 60px;
+}
+
+.container {
+margin: 0 auto;
+width: 800px;
+border: 1px black;
+}
+
+.card{
+  text-align: center;
+  width: 800px;
+  padding: 30px;
+  background-color: rgb(246, 215, 176);
+  border-radius: 20px;
+  box-shadow: 5px 10px rgb(194, 131, 72);
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+button:hover{
+  color: aliceblue;
+  padding: 5px;
+  background-color: brown;
+  font-size: 10px;
+  transition: 0.1s;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
